@@ -6,7 +6,7 @@ Currently open to work while shipping my own products.
 
 ---
 
-## What I'm Building
+## What I've Built
 
 ### 🧠 [Wize News](https://wizenews.com) — Live SaaS · AI News Platform
 
