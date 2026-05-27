@@ -14,11 +14,11 @@ Currently open to work while shipping my own products.
 
 Not just a wrapper. Here's what's actually under the hood:
 
-- **4-node LangGraph agent pipeline** — Deduplicator → Writer → Verifier → Assembler
-- **6 MCP microservices** collecting from Arxiv, GitHub, HuggingFace, RSS feeds, Serper, and Tavily
-- **Hybrid RAG system** — Qdrant vector DB + BM25 sparse search + CRAG quality evaluation
-- **Hallucination cleanup** — deterministic Python sentence removal (zero LLM calls, 60% keyword overlap threshold)
-- **3-layer cache** — RAM (25h TTL) → Redis/Upstash (7-day TTL), cleared on pipeline run or subscription change
+- **4-node LangGraph agent pipeline** — Getting all the news data, managing that news data to proper format, Guide AI to write and then verify each and every claim 
+- **6 MCP microservices** collecting from all the research papers, LLM companies documentations and news, Huggingface, Github and 14 more resources made with 6 mcp tools
+- **Hybrid RAG system** — Qdrant vector DB + BM25 sparse search + CRAG quality evaluation tested with RAGAS and golden dataset
+- **Hallucination cleanup** — deterministic Python sentence removal (zero LLM calls, NLP model)
+- **2-layer cache** — RAM  → Redis/Upstash
 - **Full billing** — Paddle subscriptions, 3-day free trial, HMAC webhook verification, self-serve cancel
 - **Auth** — Google/GitHub OAuth via Supabase SSR, JWT-protected endpoints
 
