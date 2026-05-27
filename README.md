@@ -66,7 +66,7 @@ Current focus:
 - **CI/CD** for AI systems
 
 ---
-##Problem Solving:
+## Problem Solving:
 150+ leetcode problems solved. Efficient in DSA and OOP
 ## Let's Connect
 
