@@ -21,7 +21,6 @@ Not just a wrapper. Here's what's actually under the hood:
 - **3-layer cache** — RAM (25h TTL) → Redis/Upstash (7-day TTL), cleared on pipeline run or subscription change
 - **Full billing** — Paddle subscriptions, 3-day free trial, HMAC webhook verification, self-serve cancel
 - **Auth** — Google/GitHub OAuth via Supabase SSR, JWT-protected endpoints
-- **~$0.17/day** to run 50 processed articles. Break-even: 2 paying users.
 
 **Stack:** Python · LangGraph · LangChain · FastAPI · Next.js · TypeScript · Qdrant · Redis · Supabase · Paddle · Vercel · Render · DeepSeek
 
@@ -67,7 +66,8 @@ Current focus:
 - **CI/CD** for AI systems
 
 ---
-
+##Problem Solving:
+150+ leetcode problems solved. Efficient in DSA and OOP
 ## Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)]([https://linkedin.com/in/m-ibraheem0](https://www.linkedin.com/in/muhammad-ibraheem-4a4983292/))
